@@ -28,7 +28,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: shaikmustafa77/emailservice:latest
+        image: vineela0714/emailservice:latest
         ports:
         - containerPort: 8080
         env:
@@ -654,7 +654,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: shaikmustafa77/adservice:latest
+        image: vineela0714/adservice:latest
         ports:
         - containerPort: 9555
         env:
